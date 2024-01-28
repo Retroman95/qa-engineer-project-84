@@ -1,16 +1,12 @@
----
 - summary: |
     Проверка добавления товара в корзину
     status: pass
-
 - summary: |
     Оформление заказа
     status: pass
-
 - summary: |
     Очистка корзины целиком
   status: pass
-
 - summary: |
     Удаление товара из корзины
   status: fail
