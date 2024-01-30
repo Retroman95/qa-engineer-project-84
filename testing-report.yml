@@ -14,3 +14,6 @@
 - summary: |
     Изменение языка сайта
   status: pass
+- summary: |
+    Проверка фильтрации товаров по наличию
+  status: pass
