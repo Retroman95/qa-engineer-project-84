@@ -20,3 +20,6 @@
 - summary: |
     Проверка корректной работы мобильной версии сайта
   status: pass
+- summary: |
+    Проверка входа с браузера Mozilla FireFox
+  status: pass
