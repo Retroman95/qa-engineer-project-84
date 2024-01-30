@@ -108,3 +108,16 @@
     - Вернуться на главную страницу магазина путем нажатия "Continue shopping"
   expected-result: |
     Корректно отображается и работает мобильная версия сайта 
+
+- summary: |
+    Проверка входа с браузера Mozilla FireFox
+  requirement: |
+    Сайт должен корректно открываться и функционировать с разных браузеров
+  prerequisites: |
+    Наличие браузера Mozilla FireFox
+  test-data: |
+    Mozilla FireFox Версия 122.0 (64-разрядный)
+  steps:
+    - Открыть сайт магазина https://hexlet-products-store.vercel.app/
+  expected-result: |
+    Корректно отображается сайт в браузере Mozilla FireFox
