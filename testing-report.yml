@@ -11,3 +11,6 @@
 - summary: |
     Удаление товара из корзины
   status: fail
+- summary: |
+    Изменение языка сайта
+  status: pass
