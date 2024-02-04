@@ -27,7 +27,7 @@ test-cases:
 bugreports:
    - summary: |
       Некорректно работает сортировка товаров по статусу "в наличии/отсутсвует"   
-    environment: |
+     environment: |
       Google Chrome   Версия 120.0.6099.225 (Официальная сборка), (64 бит)
       ОС Windows 10 Pro 19045.3930
     steps-to-reproduce: |
@@ -40,7 +40,7 @@ bugreports:
 
    - summary: |
       Некорректное отображение сайта при фильтрации по брендам с одним товаром  
-    environment: |
+     environment: |
       Google Chrome   Версия 120.0.6099.225 (Официальная сборка), (64 бит)
       ОС Windows 10 Pro 19045.3930
     steps-to-reproduce: |
