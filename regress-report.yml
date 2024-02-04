@@ -30,12 +30,12 @@ bugreports:
      environment: |
       Google Chrome   Версия 120.0.6099.225 (Официальная сборка), (64 бит)
       ОС Windows 10 Pro 19045.3930
-    steps-to-reproduce: |
+     steps-to-reproduce: |
       1. Зайти на главную страницу магазина: https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
       2. Снять флажок In Stock
-    expected-result: |
+     expected-result: |
       На сайте отображаются все товары в том числе и отсутствующие 
-    actual-result: |
+     actual-result: |
       Сайт отображается в стартовом виде. Фильтры не работают после снятия флажка In Stock.   
 
    - summary: |
@@ -43,38 +43,38 @@ bugreports:
      environment: |
       Google Chrome   Версия 120.0.6099.225 (Официальная сборка), (64 бит)
       ОС Windows 10 Pro 19045.3930
-    steps-to-reproduce: |
+     steps-to-reproduce: |
       1. Зайти на главную страницу магазина: https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
       3. Поставить флажок в списке Brend "Saaf & Khaas"
-    expected-result: |
+     expected-result: |
       Корректное отображение карточки товаров бренда, имеющего один товар. 
-    actual-result: |
+     actual-result: |
       Кнопка "Add to cart" выезжает за пределы поля карточки товара. Поле фильтров получает широкий профиль 
  
-  - summary: |
+   - summary: |
       Некорректно работает фильтрация товаров по статусу "В наличии"/"Нет в наличии"
-    environment: |
+     environment: |
       Google Chrome   Версия 120.0.6099.225 (Официальная сборка), (64 бит)
       ОС Windows 10 Pro 19045.3930
-    steps-to-reproduce: |
+     steps-to-reproduce: |
       1. Зайти на главную страницу магазина: https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
       1. выбрать категорию laptops
       2. снять флажок "In Stock"
-    expected-result: |
+     expected-result: |
       Сайт должен корректно отобразить информацию о товарах со статусом "нет в наличии"
-    actual-result: |
+     actual-result: |
       Список товаров отображается в стартовом виде (момент открытия главной страницы магазина, фильтры отсутствуют), флажок "In stock" реализован и функционирует некорректно
 
-  - summary: |
+   - summary: |
       Некорректно работает функция сортировка товара по ценовому диапазону 
-    environment: |
+     environment: |
       Google Chrome   Версия 120.0.6099.225 (Официальная сборка), (64 бит)
       ОС Windows 10 Pro 19045.3930
-    steps-to-reproduce: |
+     steps-to-reproduce: |
       1. Зайти на главную страницу страницу магазина: https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
       2. В поле From ввсети 75, в поле To ввести 90
-    expected-result: |
+     expected-result: |
       На сайте отображаются все товары относящиеся к заданным параметрам 
       На сайте отображается сообщение "Nothing found!" в случае, если ни один товар не отвечает заданным параметрам
-    actual-result: |
+     actual-result: |
       Сайт отображает все товары 
