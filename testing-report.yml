@@ -9,9 +9,6 @@
     Очистка корзины целиком
   status: pass
 - summary: |
-    Удаление товара из корзины
-  status: fail
-- summary: |
     Изменение языка сайта
   status: pass
 - summary: |
