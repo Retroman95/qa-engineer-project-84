@@ -19,7 +19,10 @@
   status: pass
 - summary: |
     Проверка корректной работы мобильной версии сайта
-  status: pass
+  status: fail
 - summary: |
     Проверка входа с браузера Mozilla FireFox
   status: pass
+- summary: |
+    Проверка ввода отрицательного значения цены в фильтре цен
+  status: fail
