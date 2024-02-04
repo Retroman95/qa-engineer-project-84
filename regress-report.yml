@@ -1,16 +1,29 @@
 test-cases:
-  - summary: |
-      Проверка добавления товара в корзину
-    status: pass
-  - summary: |
-      Оформление заказа
-    status: pass
-  - summary: |
-      Очистка корзины целиком
-    status: pass
-  - summary: |
-      Удаление товара из корзины
-    status: fail
+- summary: |
+    Проверка добавления товара в корзину
+  status: pass
+- summary: |
+    Оформление заказа
+  status: pass
+- summary: |
+    Очистка корзины целиком
+  status: pass
+- summary: |
+    Изменение языка сайта
+  status: pass
+- summary: |
+    Проверка фильтрации товаров по наличию
+  status: pass
+- summary: |
+    Проверка корректной работы мобильной версии сайта
+  status: pass
+- summary: |
+    Проверка входа с браузера Mozilla FireFox
+  status: pass
+- summary: |
+    Проверка ввода отрицательного значения цены в фильтре цен
+  status: fail
+
 bugreports:
   - summary: |
       Не очищается корзина при успешном оформлении заказа
