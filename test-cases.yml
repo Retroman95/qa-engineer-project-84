@@ -158,7 +158,7 @@
     Товар = Samsung Universe 9
     Хештег = #smartphones
   steps:
-    - Ввести в строке поиска товаров "Samsung"
+    - Установить флажок фильтра по бренду "Samsung"
     - Выбрать карточку товара "Samsung Universe 9"
     - Перейти по хештегу #smartphones
   expected-result: |
