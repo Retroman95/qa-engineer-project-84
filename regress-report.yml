@@ -29,6 +29,9 @@ test-cases:
 - summary: |
     Проверка фильтрации по нескольким брендам
   status: pass
+  - summary: |
+      Проверка поиска товара по хештегу
+    status: pass
   
 bugreports:
    - summary: |
