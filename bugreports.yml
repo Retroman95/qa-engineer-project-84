@@ -53,7 +53,7 @@
     Google Chrome   Версия 120.0.6099.225 (Официальная сборка), (64 бит)
     ОС Windows 10 Pro 19045.3930
   steps-to-reproduce: |
-    1. Ввести в строке поиска товаров "Samsung"
+    1. Установить флажок фильтра по бренду "Samsung"
     2. Выбрать карточку товара "Samsung Universe 9"
     3. Перейти по хештегу #smartphones
   expected-result: |
