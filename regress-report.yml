@@ -32,6 +32,12 @@ test-cases:
 - summary: |
     Проверка поиска товара по хештегу
   status: pass
+- summary: |
+    Удаление товара из корзины
+  status: pass
+- summary: |
+    Удаление товара из корзины (если товара 2 и более шт.)
+  status: pass
   
 bugreports:
    - summary: |
