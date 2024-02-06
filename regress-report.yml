@@ -7,7 +7,7 @@ test-cases:
   status: pass
 - summary: |
     Удаление товара из корзины
-  status: pass
+  status: fail
 - summary: |
     Очистка корзины целиком
   status: pass
