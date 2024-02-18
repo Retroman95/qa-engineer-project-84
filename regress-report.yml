@@ -38,6 +38,12 @@ test-cases:
 - summary: |
     Проверка поиска товара по хештегу
   status: pass
+- summary: |
+    Проверка запроса на получение списка товаров
+  status: pass
+- summary: |
+    Проверка запроса на получение информации о конкретном товаре
+  status: pass  
   
 bugreports:
    - summary: |
