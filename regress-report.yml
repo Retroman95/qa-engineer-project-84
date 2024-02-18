@@ -44,9 +44,10 @@ test-cases:
 - summary: |
     Проверка запроса на получение информации о конкретном товаре
   status: pass
- - summary: |
+- summary: |
     Проверка хранения данных корзины в сессии Браузера 
-  status: pass
+  status: pass  
+
   
 bugreports:
    - summary: |
