@@ -2,39 +2,51 @@
 - summary: |
     Проверка добавления товара в корзину
   status: pass
+  
 - summary: |
     Оформление заказа
   status: pass
+  
 - summary: |
     Удаление товара из корзины
   status: pass
+  
 - summary: |
     Удаление нескольких единиц товара из корзины
-  status: fail   
+  status: fail 
+  
 - summary: |
     Очистка корзины целиком
   status: pass
+  
 - summary: |
     Изменение языка сайта
   status: fail
+  
 - summary: |
     Проверка фильтрации товаров по наличию
   status: pass
+  
 - summary: |
     Проверка корректной работы мобильной версии сайта
   status: fail
+  
 - summary: |
     Проверка входа с браузера Mozilla FireFox
   status: pass
+  
 - summary: |
     Проверка невозможности ввода отрицательного значения цены в фильтре цен
   status: fail
+  
 - summary: |
     Проверка фильтрации по бренду
   status: pass
+  
 - summary: |
     Проверка фильтрации по нескольким брендам
   status: pass
+  
 - summary: |
     Проверка поиска товара по хештегу
   status: fail
