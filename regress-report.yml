@@ -16,7 +16,7 @@ test-cases:
   status: pass
 - summary: |
     Изменение языка сайта
-  status: pass
+  status: fail
 - summary: |
     Проверка фильтрации товаров по наличию
   status: pass
